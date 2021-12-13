@@ -4,4 +4,5 @@ app = Flask(__name__)
 #this is the main index
 @app.route("/")
 def index():
+    #redner this template
     return render_template("index.html")
